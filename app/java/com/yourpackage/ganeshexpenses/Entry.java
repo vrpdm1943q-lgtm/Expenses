@@ -1,3 +1,5 @@
+package com.yourpackage.ganeshexpenses;
+
 public class Entry {
     private String description;
     private double amount;
@@ -6,12 +8,6 @@ public class Entry {
         this.description = description;
         this.amount = amount;
     }
-
-    public String getDescription() {
-        return description;
-    }
-
-    public double getAmount() {
-        return amount;
-    }
+    public String getDescription() { return description; }
+    public double getAmount() { return amount; }
 }
